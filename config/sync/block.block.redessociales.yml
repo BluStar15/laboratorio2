@@ -1,0 +1,25 @@
+uuid: 217f8dd8-e6cf-46d8-8266-7555ac325a96
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.re
+  module:
+    - system
+  theme:
+    - bartik
+id: redessociales
+theme: bartik
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:re'
+settings:
+  id: 'system_menu_block:re'
+  label: 'Redes sociales'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

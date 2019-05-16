@@ -1,0 +1,29 @@
+uuid: 20fa9791-fe2e-437c-94d2-502a8c235195
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_licencia
+    - media.type.archivos_pdf
+    - taxonomy.vocabulary.licencias
+id: media.archivos_pdf.field_licencia
+field_name: field_licencia
+entity_type: media
+bundle: archivos_pdf
+label: Licencia
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      licencias: licencias
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

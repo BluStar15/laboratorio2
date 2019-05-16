@@ -1,0 +1,13 @@
+uuid: 2722f623-67b7-4f68-a3a5-62af4333f0a9
+langcode: en
+status: true
+dependencies: {  }
+id: archivos_pdf
+label: 'archivos PDF'
+description: ''
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file
+field_map: {  }
